@@ -72,6 +72,7 @@ startGame = () => {
   availableQuestions = [...questions];
   getNewQuestion();
 };
+//hey you
 getNewQuestion = () => {
   if (availableQuestions.length === 0 || questionCounter > MAX_QUESTIONS) {
     localStorage.setItem("mostRecentScore", score);
